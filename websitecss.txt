@@ -1,0 +1,111 @@
+* {
+    padding: 0px
+
+}
+
+.heading {
+    float:left;
+    font-size: 400%;
+    padding-left: 1%
+
+}
+
+
+.myslide{
+    height:630px;
+    width: 100%;
+
+
+}
+
+/* Parent Container */
+.content_img{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ float: left;
+ margin-right: 10px;
+ padding-left: 125px;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 8px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+#end{
+    background-color: black;
+
+}
+
+
+a:hover{
+    color:orange;
+}
+
+
+#navigate{
+    float:right;
+}
+
+.list {
+    padding-right: 30px;
+}
+
+ #aboutus {
+    background-color: #d3d3d3;
+}
+
+.info{
+    float: right;
+
+   
+}
+
+.about {
+    padding-left: 70px;
+    font-size: 40px;
+    font-family: helvetica;
+}
+
+.teamhead {
+    padding-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.vid {
+    float: left;
+    padding-right: 100px;
+    padding-left: 70px;
+}
+
+
+.fixed {
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}

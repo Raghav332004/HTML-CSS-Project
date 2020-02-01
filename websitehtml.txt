@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEEVINDIA</title>
+
+	<link rel="stylesheet" type="text/css" href="neev.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <STYLE>A {text-decoration: none;} </STYLE>
+</head>
+<body>
+
+
+<div class="fixed">
+<div class= "heading"><FONT FACE="helvetica" COLOR="orange" ><b>NEEVINDIA</b></FONT></div>
+<br>
+
+<div id="navigate">
+ <font face="helvetica" size="5px" >
+  <a href="#aboutnav" CLASS="list" style="color:orange;">ABOUT US</a>
+  <a href="#team" CLASS="list" style="color:orange;">TEAM</a>
+  <a href="#end" CLASS="list" style="color:orange;">CONTACT US</a>
+ </font>
+</div>
+</div>
+<br><br><br><br><br>
+<br>
+<img class="myslide" src="img1.jpg" >
+<img class="myslide" src="img2.jpg" >
+<img class="myslide" src="img3.jpg" >
+<img class="myslide" src="img4.jpg" >
+   <script>
+   var myIndex = 0;
+   carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("myslide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3500);
+    }
+    </script>
+<br><br>
+<div id="aboutnav">
+  <br><br><br><br>
+<div id="aboutus">
+<br>
+  <div class="about"><b>ABOUT US :</b></div>
+<br>
+<br>
+<br>
+<br>
+
+  <img src="vid.jpg" height="290px" style="width: 35%" class="vid">
+
+  <font face="arial" size="5px"> 
+India is one of the fastest growing technological country, and is moving towards automation, robotics and artificial intelligence. We, at NeevIndia aim to introduce children to the new robotic world. We want to provide children a repository, so that they can satiate their quench for learning and creativity.<br><br>
+  Teaching should not be restricted to people with money; at NeevIndia we believe in equality and that every child has the right to education. We wish to foster this belief.
+<br><br><br><br><br>
+</font>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+<div ID="team">
+
+<div class="teamhead"><font face="helvetica" ><B>TEAM</B></font></div>
+<br>
+<center><font size="4px" face="arial">Our Team consists of various integrated members who excel eminently in their field of expertise.</font></center>
+<br>
+<br>
+
+<div class="content_img">
+ <img src='photo1.jpg' width='100%' height='100%'>
+ <div>SATVIK KAPOOR</div>
+</div>
+
+<!-- Image 2 -->
+<div class="content_img">
+ <img src='photo2.jpg' width='100%' height='100%'>
+ <div>RAGHAV GUPTA</div>
+</div>
+
+<!-- Image 3 -->
+<div class="content_img">
+ <img src='photo3.jpg' width='100%' height='100%'>
+ <div>DIVIJ JAIN</div> 
+</div>
+
+<div class="content_img">
+ <img src='photo4.jpg' width='100%' height='100%'>
+ <div>HRISHI PASRICHA</div> 
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="end">
+<font color="white" face="helvetica">
+<h1><B> CONTACT US : </B></h1>
+<br>
+<font size="4px">EMAIL: neevindia12@gmail.com 
+<br>
+CALL US: +919710001829
+<br>
+<a href="https://www.instagram.com/neevindia_19/">INSTAGRAM</a>
+<br>
+<a href="https://www.facebook.com/?stype=lo&jlou=AfeGz5sJ7JOTwlETQuXgAtxAU0ecI8kzzAMgojDampGF6b6eiidUBz9VjITmjD1SeQAYU0Kih4GlwHpMY9758TKbsfwRqR-9bjueWhbUIYhFYA&smuh=58549&lh=Ac85h6h4Ygj5FpYO">FACEBOOK</a>
+<br>
+<center><font size="3px">Copyright &copy; 2019 reserved; Neevindia </font></center>
+<br></font>
+</font>
+</div>
+</body>
+</html>
